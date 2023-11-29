@@ -14,7 +14,7 @@ function App() {
   };
 
   const getVideos = (length) => {
-    const client = createClient("YOUR_PEXELS_API_KEY");
+    const client = createClient("ySb8nPtB91Q0v6aqn0JrWOJPzea7BnQVUdN5Z8EXGRtFQWMU6pXDahJh");
 
     const query = randomQuery();
     client.videos
